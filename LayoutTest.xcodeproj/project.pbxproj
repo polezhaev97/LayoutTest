@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		109FE080232D5037001E5D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FE07F232D5037001E5D3C /* AppDelegate.swift */; };
-		109FE082232D5037001E5D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FE081232D5037001E5D3C /* ViewController.swift */; };
+		109FE082232D5037001E5D3C /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FE081232D5037001E5D3C /* ModalViewController.swift */; };
 		109FE085232D5037001E5D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109FE083232D5037001E5D3C /* Main.storyboard */; };
-		109FE087232D5038001E5D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109FE086232D5038001E5D3C /* Assets.xcassets */; };
 		109FE08A232D5038001E5D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109FE088232D5038001E5D3C /* LaunchScreen.storyboard */; };
 		109FE095232D5038001E5D3C /* LayoutTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FE094232D5038001E5D3C /* LayoutTestTests.swift */; };
 		109FE0A0232D5038001E5D3C /* LayoutTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FE09F232D5038001E5D3C /* LayoutTestUITests.swift */; };
+		109FE0AE232D6A25001E5D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109FE0AD232D6A25001E5D3C /* Assets.xcassets */; };
+		109FE0B0232D6B4B001E5D3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FE0AF232D6B4B001E5D3C /* MainViewController.swift */; };
+		109FE0B2232E93AC001E5D3C /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FE0B1232E93AC001E5D3C /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +38,8 @@
 /* Begin PBXFileReference section */
 		109FE07C232D5037001E5D3C /* LayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		109FE07F232D5037001E5D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		109FE081232D5037001E5D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		109FE081232D5037001E5D3C /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		109FE084232D5037001E5D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		109FE086232D5038001E5D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		109FE089232D5038001E5D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		109FE08B232D5038001E5D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		109FE090232D5038001E5D3C /* LayoutTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,9 @@
 		109FE09B232D5038001E5D3C /* LayoutTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		109FE09F232D5038001E5D3C /* LayoutTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTestUITests.swift; sourceTree = "<group>"; };
 		109FE0A1232D5038001E5D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109FE0AD232D6A25001E5D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		109FE0AF232D6B4B001E5D3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		109FE0B1232E93AC001E5D3C /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				109FE07F232D5037001E5D3C /* AppDelegate.swift */,
-				109FE081232D5037001E5D3C /* ViewController.swift */,
+				109FE0AF232D6B4B001E5D3C /* MainViewController.swift */,
+				109FE081232D5037001E5D3C /* ModalViewController.swift */,
+				109FE0B1232E93AC001E5D3C /* GradientButton.swift */,
 				109FE083232D5037001E5D3C /* Main.storyboard */,
-				109FE086232D5038001E5D3C /* Assets.xcassets */,
+				109FE0AD232D6A25001E5D3C /* Assets.xcassets */,
 				109FE088232D5038001E5D3C /* LaunchScreen.storyboard */,
 				109FE08B232D5038001E5D3C /* Info.plist */,
 			);
@@ -230,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				109FE08A232D5038001E5D3C /* LaunchScreen.storyboard in Resources */,
-				109FE087232D5038001E5D3C /* Assets.xcassets in Resources */,
+				109FE0AE232D6A25001E5D3C /* Assets.xcassets in Resources */,
 				109FE085232D5037001E5D3C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				109FE082232D5037001E5D3C /* ViewController.swift in Sources */,
+				109FE082232D5037001E5D3C /* ModalViewController.swift in Sources */,
 				109FE080232D5037001E5D3C /* AppDelegate.swift in Sources */,
+				109FE0B2232E93AC001E5D3C /* GradientButton.swift in Sources */,
+				109FE0B0232D6B4B001E5D3C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
